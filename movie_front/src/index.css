@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard Variable", sans-serif;
+}
+
+/* 전체 페이지 배경 */
+body, html, #root {
+  background-color: #121212;
+  color: white;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #facc15;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #eab308;
+}
+
+.btn-danger {
+  background-color: #dc2626;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #b91c1c;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: white;
+}
+
+.btn-ghost:hover {
+  color: #facc15;
+}
+
+.btn-secondary {
+  background-color: #1f2937;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #111827;
+}
