@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComment, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "./UI.jsx";
 
-let BACKEND = "http://127.0.0.1:8000/chat";
-BACKEND = "http://127.0.0.1:8000/chat";
+let BACKEND = "https://movie2-1-dk8n.onrender.com/";
+// BACKEND = "http://127.0.0.1:8000/chat";
 
 export default function Chatbot() {
   const [open, setOpen] = useState(false);
